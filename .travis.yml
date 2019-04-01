@@ -1,0 +1,15 @@
+dist: trusty
+language: scala
+scala:
+   - 2.12.8
+script:
+  - sbt ++$TRAVIS_SCALA_VERSION run
+  - sbt ++$TRAVIS_SCALA_VERSION run
+  - sbt ++$TRAVIS_SCALA_VERSION run
+  - sbt ++$TRAVIS_SCALA_VERSION run
+  - sbt ++$TRAVIS_SCALA_VERSION run
+  - sbt ++$TRAVIS_SCALA_VERSION run
+  - sbt ++$TRAVIS_SCALA_VERSION run
+  - sbt ++$TRAVIS_SCALA_VERSION run
+  - sbt ++$TRAVIS_SCALA_VERSION run
+  - sbt ++$TRAVIS_SCALA_VERSION run
